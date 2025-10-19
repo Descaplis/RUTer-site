@@ -14,7 +14,7 @@ export default function PersonCard({ name, role, description, image, imageFirst 
         <div className="p-8">
             <h3 className="text-4xl font-bold">{name}</h3>
             <p className="text-xl text-gray-800 m-2">{role}</p>
-            <p className="mt-2 text-xl">{description}</p>
+            <p className="mt-2 text-3xl">{description}</p>
         </div>
         {!imageFirst && (
             <Image
