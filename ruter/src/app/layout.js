@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
               </div>
               <div className="flex justify-center items-center h-3/4">
                 {usePathname() == "/" ? (
-                  <h1 className="text-8xl w-full text-center">RUTeR</h1>
+                  <h1 className="text-9xl w-full text-center">RUTeR</h1>
                 ) : (
                   <></>
                 )}
